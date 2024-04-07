@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="DiscoverF4.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="food.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/dinuguan.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Diniguan</h2>
+                <p>
+                    
+                        Dinuguan is a Filipino savory stew made primarily of pork meat and offal, 
+                        such as intestines and liver, cooked in a rich and thick sauce made from pig's blood, 
+                        vinegar, and various spices including garlic, onions, and chili peppers. 
+                        It is often served with rice and is known for its bold and distinctive flavor profile, 
+                        combining savory, sour, and spicy elements. Dinuguan is a popular dish in Filipino cuisine, 
+                        enjoyed by many for its unique taste and cultural significance.
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

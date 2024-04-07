@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="Discover1.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="travel.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/travel2.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Villa Arcadia</h2>
+                <p>
+                    
+                    Welcome to Villa Arcadia, where every moment feels like a dream in motion. 
+                    Nestled amidst serene landscapes and kissed by the gentle whispers of nature, 
+                    this enchanting abode beckons travelers to a realm of pure tranquility and luxury. 
+                    Picture yourself strolling through lush gardens adorned with vibrant blooms,
+                    each step unveiling a new chapter of serenity. 
+                    Whether you're savoring a morning coffee on a sun-kissed terrace or indulging in a leisurely dip in the crystalline pool, 
+                    every corner of Villa Arcadia is crafted to ignite your senses and elevate your soul. 
+                    Let the enchantment of this hidden gem embrace you,
+                    as you surrender to the allure of timeless elegance and unparalleled comfort.
+                    Your journey begins here, at Villa Arcadia,
+                    where every moment is an invitation to immerse yourself in the magic of travel.
+
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

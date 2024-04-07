@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="Discover5.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="travel.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/falls.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Maria Christina Falls</h2>
+                <p>
+                    Embark on a journey to the mesmerizing realm of Maria Christina Falls, 
+                    where nature's grandeur reigns supreme. Tucked away amidst the lush greenery of the Philippines, 
+                    this enchanting cascade unveils a spectacle of sheer beauty and serenity. 
+                    As the crystal-clear waters cascade gracefully down the rugged cliffs, 
+                    a symphony of mist and rainbows dances in the air, captivating every wanderer's soul. 
+                    Allow yourself to be spellbound by the ethereal allure of Maria Christina Falls, 
+                    where every moment is a brushstroke in the masterpiece of Mother Nature's canvas.
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

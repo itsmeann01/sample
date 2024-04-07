@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="Discover3.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="travel.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/1.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Swimming Pool</h2>
+                <p>
+                    Dive into an oasis of serenity and elegance at the enchanting Swimming Pool. 
+                    Nestled amidst lush greenery and kissed by the golden rays of the sun,
+                    this aquatic haven beckons travelers to immerse themselves in tranquility.
+                    With crystal-clear waters that shimmer like liquid sapphires,
+                    every dip becomes a rejuvenating journey for the soul. 
+                    Whether you're seeking solace in a peaceful swim or simply basking in the luxurious ambiance, 
+                    Swimming Pool promises an unforgettable escape where time stands still and worries fade away. 
+                    Surrender to the allure of this aquatic paradise and let your senses be swept away on a tide of pure enchantment.     
+                                
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

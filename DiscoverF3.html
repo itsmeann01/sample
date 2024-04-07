@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="DiscoverF3.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="food.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/food3.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Tinolang Manok</h2>
+                <p>
+                    
+                    Tinolang Manok is a traditional Filipino chicken soup dish 
+                    characterized by its clear broth infused with ginger and lemongrass, 
+                    accompanied by tender chicken pieces, green papaya or chayote, 
+                    and leafy greens like spinach or malunggay leaves. 
+                    It's a comforting and nourishing dish commonly served with steamed rice, 
+                    enjoyed across the Philippines for its refreshing flavors and heartwarming appeal.
+
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

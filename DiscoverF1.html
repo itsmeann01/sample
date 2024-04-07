@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="DiscoverF1.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="food.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/food1.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Chicken Nuggets</h2>
+                <p>
+                    
+            Embark on a culinary adventure with our golden-browned Chicken Nuggets, 
+            where every bite is a journey into crispy perfection. 
+            Dive into tender chunks of juicy chicken, lovingly coated in a secret blend of herbs and spices, 
+            creating an irresistible symphony of flavors. Whether you're young or young at heart, 
+            these nuggets are more than just a snack—they're a passport to a world of savory enchantment. 
+            Prepare to tantalize your taste buds and satisfy your cravings with each delightful crunch. 
+            Join us on a magical gastronomic escapade, where every moment savored is a treasure in itself. 
+            Indulge in the magic of Chicken Nuggets, and let your palate dance with delight!
+            Chicken nuggets are bite-sized pieces of chicken meat that are breaded and fried until crispy. 
+            They are a popular fast food and snack option enjoyed by people of all ages.
+
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

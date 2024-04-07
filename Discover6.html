@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Discover</title>
+        <link rel="stylesheet" href="Discover6.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <h1 class="logo">Discover</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="travel.html">Home</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="container">
+                <img src="image/boracay.jpg">
+            </div>
+
+            <div class="text-block">
+                <h2>Boracay</h2>
+                <p>
+                    Welcome to Boracay, where pristine shores meet azure waters in a dance of enchantment! 
+                    Nestled in the heart of the Philippines, Boracay beckons with its powdery white beaches, 
+                    swaying palm trees, and vibrant sunsets painting the sky in hues of orange and pink. 
+                    Dive into crystal-clear waters teeming with colorful marine life, 
+                    or simply lounge under the shade of a coconut tree, 
+                    feeling the gentle caress of the ocean breeze. 
+                    Indulge in mouthwatering seafood delicacies by day and dance under the stars by night, 
+                    as this island paradise weaves its spell around you. 
+                    Boracay isn't just a destination; it's a symphony of bliss waiting to be explored.
+                </p>
+              </div>
+        
+        </section>
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
